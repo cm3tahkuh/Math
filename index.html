@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="animations/animate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/9.0.0/bignumber.min.js"></script>
     <title>Метод половинного деления</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
@@ -13,6 +14,7 @@
 
   <body>
     <div class="container">
+      <div class="hero">
       <h2 class="hero__title wow fadeInDown">Метод половинного деления</h2>
       <div class="hero__buttons--block">
         <label class="wow fadeInLeft" for="fx">Функция (fx): </label>
@@ -22,6 +24,10 @@
           <div>ln = ln()</div>
           <div>tg = tg()</div>
           <div>cos = cos()</div>
+          <div>(2*x) = (2x)</div>
+          <div>степень = 2^3</div>
+          <div>(2*x) = (2x)</div>
+          <div>корень = sqrt()</div>
         </div>
 
         <label class="wow fadeInLeft" for="a">Начальное значение a: </label>
@@ -35,6 +41,10 @@
 
         <button class="wow fadeInUp" onclick="calculate()">Выполнить расчет</button>
       </div>
+    </div>
+    </div>
+
+    <div class="container">
       <div id="resultTable"></div>
     </div>
 
