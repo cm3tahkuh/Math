@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Решение СЛУ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animations/animate.css">
+</head>
+<body>
+  <div class="container wow fadeInDown">
+    <h1 class="wow fadeInUp">Решение системы линейных уравнений</h1>
+    <table class="wow fadeInDown" id="equationTable">
+      <thead>
+        <tr>
+          <th>x1</th>
+          <th>x2</th>
+          <th>x3</th>
+          <th>bi</th>
+          <th>Контрольные суммы</th>
+          <th>Строчные суммы</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="number" step="0.001" value="3.499"></td>
+          <td><input type="number" step="0.001" value="3.512"></td>
+          <td><input type="number" step="0.001" value="3.602"></td>
+          <td><input type="number" step="0.001" value="37.791"></td>
+          <td class="result-cell"></td>
+          <td class="result-cell"></td>
+        </tr>
+        <tr>
+          <td><input type="number" step="0.001" value="-7.117"></td>
+          <td><input type="number" step="0.001" value="3.602"></td>
+          <td><input type="number" step="0.001" value="3.811"></td>
+          <td><input type="number" step="0.001" value="3.520"></td>
+          <td class="result-cell"></td>
+          <td class="result-cell"></td>
+        </tr>
+        <tr>
+          <td><input type="number" step="0.001" value="3.748"></td>
+          <td><input type="number" step="0.001" value="3.901"></td>
+          <td><input type="number" step="0.001" value="-5.958"></td>
+          <td><input type="number" step="0.001" value="3.850"></td>
+          <td class="result-cell"></td>
+          <td class="result-cell"></td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="wow fadeInDown" id="calculateButton">Рассчитать</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="animations/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
