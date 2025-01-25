@@ -1,0 +1,1 @@
+vless://c39d34d1-8723-42fd-a63d-1c857c76249a@80.240.112.94:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=mD8V76JrLVJQrQXtyNVgcqwptE9PzcF8nEJe3MyhTDY&sid=f0db85b11110c6&spx=%2Fsearch%3Fq%3Dnews&allowInsecure=1&type=tcp&headerType=none&host=v2line.t.me#t.me%2Fv2Line%20%7C%20%282184%29%20%7C%20Frankfurt%20%7C%20DE%20%7C%20VLESS
